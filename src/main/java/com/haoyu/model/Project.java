@@ -16,6 +16,12 @@ public class Project {
 	public void setProjcetName(String projcetName) {
 		this.projcetName = projcetName;
 	}
+	
+	public void setProjcetName1(String projcetName) {
+		this.projcetName1 = projcetName1;
+	}
+	
+	
 	@Override
 	public String toString() {
 		return "Project [projectId=" + projectId + ", projcetName=" + projcetName + "]";
